@@ -16,6 +16,7 @@
   --cat-smart:   #0f9488;   --cat-smart-soft:   #e3f6f2;
   --cat-clean:   #d9730d;   --cat-clean-soft:   #fdecd8;
   --cat-care:    #d1477a;   --cat-care-soft:    #fbe7ee;
+  --cat-rental:  #0891b2;   --cat-rental-soft:  #e0f4f8;
   --sans: 'Zen Kaku Gothic New', 'Hiragino Sans', 'Noto Sans JP', sans-serif;
   --mono: 'JetBrains Mono', monospace;
   --measure: 760px;
@@ -195,6 +196,7 @@ a:hover{ text-decoration: underline; }
 .tag.cat-smart{ background: var(--cat-smart-soft); color: var(--cat-smart); }
 .tag.cat-clean{ background: var(--cat-clean-soft); color: var(--cat-clean); }
 .tag.cat-care{ background: var(--cat-care-soft); color: var(--cat-care); }
+.tag.cat-rental{ background: var(--cat-rental-soft); color: var(--cat-rental); }
 
 /* ---------- article page ---------- */
 .article-header{
