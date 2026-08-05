@@ -355,3 +355,17 @@ table.spec th{
   color: var(--ink-faint);
   margin-right: 14px;
 }
+
+/* ---------- 応援セクション ----------
+   中身は本体サイトの /support/support.js が描画する。
+   ここは記事一覧との間隔と、囲みの見た目だけを持つ。 */
+.support-section{
+  margin: 48px 0 8px;
+  padding: 28px 26px 32px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+}
+@media (max-width: 640px){
+  .support-section{ padding: 24px 20px 28px; }
+}
